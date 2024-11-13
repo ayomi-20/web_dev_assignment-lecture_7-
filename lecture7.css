@@ -1,0 +1,140 @@
+body{
+    background-color: beige;
+}
+.intro{
+    position: fixed;
+    color: orangered;
+}
+p{
+    color: orange;
+    text-align:left;
+    font-size: larger;
+}
+.note{
+    color: blue;
+    text-align-last:right;
+    line-height: 20px;
+    word-spacing: 10px;
+}
+.np{
+    position: relative;
+    height: 450px;
+    width: 450px;
+    left: 700px;
+    bottom: 900px;
+}
+.menu{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    left: 350px;
+    bottom: 300px;
+    z-index: -1;
+}
+.bc{
+    vertical-align:baseline;
+    height: 100px;
+    width: 100px;
+}
+.comp{
+    vertical-align: text-top;
+    height: 100px;
+    width: 100px;
+}
+.code1{
+    vertical-align: sub;
+    height: 100px;
+    width: 100px;
+}
+.description{
+    text-decoration-line: line-through;
+    text-decoration-color: brown;
+    text-decoration-thickness: 0.5px;
+    text-indent: 30px;
+}
+.greet{
+    text-decoration-line:overline;
+    text-decoration-color: darkblue;
+    text-decoration-style: double;
+    text-decoration-style: wavy;
+    letter-spacing: -2px;
+}
+.alternatively{
+    letter-spacing: 5px;
+    display: inline;
+}
+.appreciation{
+    text-shadow: 4px 4px gray;
+}
+.linkedin{
+    background-color:gray;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline;
+    border-radius: 10px;
+    outline: black;
+    border: solid;
+    border-color: black;
+}
+#quote{
+    vertical-align: super;
+}
+.services{
+    margin-left: 30px;
+    top: 50px;
+    direction: ltr;
+    unicode-bidi:bidi-override;
+    text-decoration-line: overline line-through;
+}
+a:link,a:visited{
+    color: cornflowerblue;
+    display: block;
+    height: 20px;
+    width: 49px;
+}
+.lang {list-style-type: circle;}
+.other{ list-style-type: square;}
+.skill1{list-style-type: upper-roman;} 
+.skill2{list-style-type: lower-alpha;} 
+.mat{
+    position: static;
+    bottom: 30px;
+    left: 450px;
+    height: 500px;
+    width: 900px;
+    opacity: 50%;
+}
+.topright{
+    position:fixed;
+    bottom: 480px;
+    left: 20px;
+    color: red;
+}
+.topleft{
+    position: fixed;
+    bottom: 480px;
+    left: 840px;
+    color: red;
+}
+.bottomright{
+    position: fixed;
+    bottom: 25px;
+    left: 20px;
+    color: red;
+}
+.bottomleft{
+    position:fixed;
+    bottom: 25px;
+    left: 840px;
+    color: red;
+}
+.center{
+    position: fixed;
+    bottom: 220px;
+    left: 450px;
+    color: red;
+}
+span{
+    overflow-y: hidden;
+}
